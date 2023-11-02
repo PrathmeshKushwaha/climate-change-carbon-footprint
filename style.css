@@ -1,0 +1,14 @@
+#cover-image{
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+#cover-image-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#card-image {
+    border-radius: 20px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        /* Custom CSS for enhanced styling */
+        .text-overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 2rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hero-image {
+            object-fit: cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .feature-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+
+        .action-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .action-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="main.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cf.html">CF Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preventive.html">Prevention</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cimatechange1.html">Details</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container-fluid p-0">
+        <img src="wcc 2.jpeg" alt="Climate Change" class="hero-image">
+        <div class="text-overlay">
+            <h1 class="display-4 text-center text-white">Understanding Climate Change</h1>
+            <p class="lead text-center text-white">Join the fight against climate change and make a difference.</p>
+        </div>
+    </header>
+
+
+    <section class="container my-5">
+        <div class="row">
+            <!-- Text Content -->
+            <div class="col-lg-8">
+                <h2>What is Climate Change?</h2>
+                <p>
+                    Climate change refers to significant and long-term alterations in the Earth's average weather patterns.
+                    It is primarily driven by human activities, including the burning of fossil fuels, deforestation,
+                    and industrial processes, which release greenhouse gases into the atmosphere.
+                </p>
+                <p>
+                    These greenhouse gases, such as carbon dioxide (CO2) and methane (CH4), trap heat from the sun,
+                    leading to a gradual increase in global temperatures, known as global warming.
+                </p>
+                <h2>The Consequences of Climate Change</h2>
+                <p>
+                    Climate change has far-reaching consequences, including:
+                </p>
+                <ul>
+                    <li>Rising global temperatures and heatwaves</li>
+                    <li>Sea-level rise and coastal flooding</li>
+                    <li>More frequent and severe weather events</li>
+                    <li>Loss of biodiversity and ecosystem disruptions</li>
+                </ul>
+                <p>
+                    It poses a significant threat to the environment, human health, and our way of life.
+                </p>
+                <a href="preventive.html" class="btn btn-primary">Take Action</a>
+            </div>
+
+            <!-- Image Card -->
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img src="wcc 1.jpeg" class="card-img-top" alt="Climate Change Image">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
